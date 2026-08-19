@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<section class="page-shell">
+  <div class="container narrow">
+    <header class="page-header">
+      <p class="kicker">{{ page.kicker | default: "PAGE" }}</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}
+        <p class="lead">{{ page.description }}</p>
+      {% endif %}
+    </header>
+    <article class="prose">
+      {{ content }}
+    </article>
+  </div>
+</section>

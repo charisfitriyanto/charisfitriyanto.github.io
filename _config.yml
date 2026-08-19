@@ -1,0 +1,19 @@
+title: Charis Fitriyanto
+description: Personal website, blog, dan catatan Charis Fitriyanto.
+url: "https://charisfitriyanto.github.io"
+baseurl: ""
+lang: id
+timezone: Asia/Jakarta
+
+author:
+  name: Charis Fitriyanto
+  github: charisfitriyanto
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
